@@ -67,34 +67,34 @@ export default function App() {
   const tools = [
     { 
       icon: <CreditCard className="w-6 h-6" />,
-      title: "Premium CC", 
-      price: "$50", 
-      desc: "Optimized for TikTok Ads, App Store, and gaming. High-limit, low-decline rates.",
-      tag: "Bestseller",
+      title: "Buy Our Cc", 
+      price: "$50↑", 
+      desc: "Most POPULAR ✅ – Start Earning on TikTok Live/Shop. Includes PDF Tutorial + Admin support.",
+      tag: "Best Seller",
       id: "tool-cc"
     },
     { 
       icon: <Lock className="w-6 h-6" />,
-      title: "ACH Bank Logs", 
-      price: "$50", 
-      desc: "Tier-1 U.S. financial logs with trial deposit confirmation in <48 hours.",
-      tag: "Premium",
+      title: "U.S. Bank Logs", 
+      price: "$50↑", 
+      desc: "Premium logs for your ACH. Includes PDF tutorial + Admin support. Fully refundable.",
+      tag: "Verified",
       id: "tool-ach"
     },
     { 
       icon: <Shield className="w-6 h-6" />,
-      title: "Cheques", 
-      price: "$30", 
-      desc: "U.S. & Canada instruments ready for mobile deposit or express physical shipment.",
-      tag: "Verified",
+      title: "Spammed Cheques", 
+      price: "$30↑", 
+      desc: "Freshly spammed instruments. PDF Tutorial + Admin support. Optimized for mobile deposit.",
+      tag: "High Hit",
       id: "tool-checks"
     },
     { 
       icon: <Send className="w-6 h-6" />,
-      title: "E-transfer", 
-      price: "$1050", 
-      desc: "Instant pickup at the industry's best rates. No middlemen, direct partnership.",
-      tag: "Active",
+      title: "E-transfer Service", 
+      price: "₦1,050/$", 
+      desc: "Below $1K: ₦900. Bulk: ₦1,050. Above $1K: ₦1,000. Quick pick up at elite rates.",
+      tag: "Daily Rate",
       id: "tool-etransfer"
     }
   ];
@@ -102,9 +102,12 @@ export default function App() {
   const testimonials = [
     { name: "Anonymous", text: "G block, Chale I swear you guys be tha real King of boys!. Cc be sharp Etransfer be fast", img: "https://i.pravatar.cc/150?img=33" },
     { name: "Alex", text: "Oh boy! Everything sharp for this side! Respect admin.", img: "https://i.pravatar.cc/150?img=11" },
-    { name: "Expensive London", text: "When I first moved to UK I didn’t know it would be extremely difficult to survive. Introduced to Gblock and the rest is history.", img: "https://i.pravatar.cc/150?img=12" },
+    { name: "Anonymous", text: "No long talk easy to use", img: "https://i.pravatar.cc/150?img=10" },
+    { name: "Expensive London", text: "When I first moved to UK I didn’t know it would be extremely difficult to survive, my hommies put me on and introduced me to Gblock. The rest is history", img: "https://i.pravatar.cc/150?img=12" },
     { name: "Remmy boy", text: "Best Cc vendor in the market. No logs invalid, everything hits.", img: "https://i.pravatar.cc/150?img=13" },
     { name: "Denis", text: "Good service, though it was a bit difficult to connect my Cc for the first time but the admin put me on easy.", img: "https://i.pravatar.cc/150?img=14" },
+    { name: "Eze King", text: "I love the self cashout like mad.", img: "https://i.pravatar.cc/150?img=20" },
+    { name: "Oba Canada", text: "Nice service, I hope you guys don’t become greedy in future", img: "https://i.pravatar.cc/150?img=21" },
     { name: "Shalliboi", text: "Bro I’ve spent over $30K on TikTok shop, burst my brain, nice one.", img: "https://i.pravatar.cc/150?img=15" }
   ];
 
@@ -193,15 +196,14 @@ export default function App() {
                 <div className="space-y-6">
                   <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white border border-black/5 shadow-sm">
                     <span className="w-2 h-2 bg-[#09716D] rounded-full animate-ping" />
-                    <span className="text-[10px] font-black uppercase tracking-[0.2em] text-black/60 italic">Established Elite Network Since 2024</span>
+                    <span className="text-[10px] font-black uppercase tracking-[0.2em] text-black/60 italic">📍 Hustler's Safest Zone 📍</span>
                   </div>
                   <h1 className="heading-xlarge !leading-[0.9] !tracking-[-0.04em] text-balance">
-                    Elite Assets <br />
-                    For Professional <br />
-                    <span className="text-[#09716D]">Hustlers.</span>
+                    GBLOCK 202💰 <br />
+                    <span className="text-[#09716D]">Hustler's Safest Zone.</span>
                   </h1>
                   <p className="text-xl text-black/50 max-w-lg leading-relaxed font-medium">
-                    Secure the infrastructure for your digital empire. Premium CCs, multi-verified accounts, and professional deployment training.
+                    MOST POPULAR ✅ – Start Earning on TikTok Live/Shop with Our Cc — Ship Credit Cards to your Clients addresses for easy spendings📍
                   </p>
                 </div>
                 
@@ -281,6 +283,24 @@ export default function App() {
            </div>
         </section>
 
+        {/* Philosophy Section */}
+        <section className="py-24 bg-[#FFFFF5] border-b border-black/5">
+           <div className="container mx-auto px-6 text-center">
+              <div className="max-w-2xl mx-auto space-y-8">
+                 <div className="inline-block p-4 rounded-3xl bg-[#09716D]/5 border border-[#09716D]/10">
+                    <span className="text-[10px] font-black uppercase tracking-[0.5em] text-[#09716D]">Our Why</span>
+                 </div>
+                 <h2 className="text-4xl md:text-5xl font-black tracking-tighter italic">Why we do what we do.</h2>
+                 <div className="p-12 rounded-[4rem] bg-white border border-black/5 shadow-sm relative group overflow-hidden">
+                    <div className="absolute top-0 left-0 w-2 h-full bg-[#09716D]" />
+                    <p className="text-2xl md:text-3xl font-black italic tracking-tighter leading-tight text-black/80">
+                      "Because we can eat and feed <br /><span className="text-[#09716D]">others too!"</span>
+                    </p>
+                 </div>
+              </div>
+           </div>
+        </section>
+
         {/* Product Catalog */}
         <section id="credit-cards" className="py-32 bg-white selection:bg-[#09716D] selection:text-white">
           <div className="container mx-auto px-6">
@@ -288,7 +308,7 @@ export default function App() {
                <div className="lg:col-span-1 space-y-8">
                   <div className="space-y-4">
                     <span className="text-[#09716D] font-black text-[12px] uppercase tracking-[0.5em]">Inventory</span>
-                    <h2 className="heading-large !leading-[1] tracking-tighter">Premium <br />Deployment <br />Tools</h2>
+                    <h2 className="heading-large !leading-[1] tracking-tighter">Grab your tools <br />for easy <br />work.</h2>
                   </div>
                   <p className="body-normal text-black/50 leading-relaxed font-medium">
                     Curated digital instruments designed for high-conversion operations. Each asset is verified before listing.
@@ -353,14 +373,23 @@ export default function App() {
                     <div className="space-y-10">
                        <div className="space-y-6">
                           <span className="text-[#09716D] text-[12px] font-black uppercase tracking-[0.6em]">Training Program</span>
-                          <h2 className="text-6xl lg:text-7xl font-black tracking-tighter italic leading-[0.9]">Learn <br />Advanced <br /><span className="text-[#09716D]">Malware.</span></h2>
+                          <h2 className="text-6xl lg:text-7xl font-black tracking-tighter italic leading-[0.9]">Learn <br />Spamming <br /><span className="text-[#09716D]">Fee — $1,500.</span></h2>
                           <p className="text-xl text-black/50 leading-relaxed font-medium max-w-lg">
-                            Take absolute control. Learn to deploy professional Android RAT systems to intercept OTPs, bypass 2FA, and command devices.
+                            As the world continues advancing, it gets even more clear that the best way to stay upgraded in this hustle is to stay updated. Take your grind to the next level by learning how to spam using advanced Android RAT (Remote Access Trojans).
                           </p>
                        </div>
 
                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-12">
-                          {["Intercept SMS (OTP)", "Keylogging Control", "Banking Overlays", "WhatsApp Capture", "Anti-Delete Systems", "Remote Deployment"].map((f, i) => (
+                          {[
+                            "Control phone remotely", 
+                            "Read SMS (OTP/2FA)", 
+                            "Keylogging Passwords", 
+                            "Bypass App Locks", 
+                            "Capture Banking OTP", 
+                            "Transfer Money Direct",
+                            "Loan in Client Name",
+                            "Read WhatsApp/Emails"
+                          ].map((f, i) => (
                             <div key={i} className="flex items-center gap-4 text-[13px] font-black uppercase tracking-widest text-[#09716D]">
                                <div className="w-2 h-2 bg-[#09716D] rounded-full animate-pulse" /> {f}
                             </div>
@@ -417,17 +446,17 @@ export default function App() {
                     className="lg:col-span-7 p-12 lg:p-20 bg-white rounded-[5rem] border border-black/5 shadow-sm space-y-12 flex flex-col"
                  >
                     <div className="space-y-6">
-                       <span className="text-[#09716D] font-black text-[12px] uppercase tracking-[0.5em]">Trust Infrastructure</span>
-                       <h2 className="heading-large !leading-[1] tracking-tighter">Verified Payout <br />Portals.</h2>
+                       <span className="text-[#09716D] font-black text-[12px] uppercase tracking-[0.5em]">Direct Pick Up</span>
+                       <h2 className="heading-large !leading-[1] tracking-tighter">Made Easy!</h2>
                        <p className="body-large text-black/50 font-medium max-w-xl">
-                          Full authority over your cashouts. High-limit Venmo and PayPal business accounts spammed and verified for instant usage.
+                          Buy—Login—Reset Passwords—Start accepting payments. High-limit Venmo and PayPal business accounts spammed and verified for instant usage.
                        </p>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8">
                        {[
-                         { title: "Venmo Elite", price: "$35+", color: "#09716D", desc: "For BTC settlement & quick spend." },
-                         { title: "PayPal Pro", price: "$35+", color: "#D6F4E8", desc: "For global business transfers." }
+                         { title: "Venmo Account", price: "$35↑", color: "#09716D", desc: "Buy—Login—Reset Passwords—Start accepting payments." },
+                         { title: "PayPal Account", price: "$35↑", color: "#000", desc: "Verified business accounts spammed for instant usage." }
                        ].map((item, i) => (
                          <div key={i} className="p-8 rounded-[3rem] bg-[#FFFFF5] border border-black/5 space-y-4 hover:border-black transition-colors group">
                             <div className="flex items-center justify-between">
@@ -463,7 +492,7 @@ export default function App() {
                           Build emotional leverage <br />Ship to client address in <span className="text-black">24-72 hours.</span>
                        </p>
                        <p className="body-normal text-black/60 font-medium">
-                          Trust is built on emotions. Seal the bond with premium physical shipments.
+                          Trust is built on emotions. Seal the bond with premium physical shipments for $35↑ per item.
                        </p>
                     </div>
                     <div className="pt-8">
@@ -527,10 +556,10 @@ export default function App() {
 
                  <div className="space-y-6">
                     {[
-                      { q: "What packages does Gblock offer?", a: "Elite toolkit: Malware training, spammed CCs (TikTok Ads/Apple Store optimization), ACH logs, premium cheques, and verified payment profiles." },
-                      { q: "Operation Security & Tracking?", a: "We operate on secure, anonymous protocols. All physical shipments come with encrypted tracking within 24-72 hours." },
-                      { q: "Direct Support Channels?", a: "Direct hotline via WhatsApp and Telegram. 24/7 technical assistance for connected systems." },
-                      { q: "Refunds & Success Guarantee?", a: "We take full responsibility for technical faults originating from our end. Quality is the foundation of our network." }
+                      { q: "What packages does Gblock offer?", a: "Gblock has a wide range of working tools: Spamming + Hacking Training, Freshly spammed Cc/Cheques, Bank Logs for ACH, Quick Etransfer pick up, and Verified Accounts." },
+                      { q: "Where is Gblock located?", a: "Gblock prefers to stay anonymous for longevity and security reasons, but we are always on the Gblock waiting for you!" },
+                      { q: "How can I contact for support?", a: "Click the WhatsApp chat link on this site to reach our customer support team. We're available 24/7 to assist you." },
+                      { q: "Does Gblock offer any warranty?", a: "Yes, our services are top quality, and we take full responsibility for resolving any issues that arise, provided the problem is from our end." }
                     ].map((item, i) => (
                       <div key={i} className="bg-white rounded-[2.5rem] border border-black/5 overflow-hidden">
                         <button 
@@ -619,7 +648,7 @@ export default function App() {
                   <span className="text-[10px] font-black uppercase tracking-widest">End-to-End Encrypted Protocols</span>
                </div>
                <p className="text-[10px] font-black uppercase tracking-[0.3em] text-black/20">
-                  &copy; 2026 GBLOCK 24. Professional Digital Solutions.
+                  &copy; 2026 GBLOCK 202. Professional Digital Solutions.
                </p>
             </div>
          </div>
