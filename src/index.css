@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;500;600;700;800&family=Archivo+Black&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Mulish", sans-serif;
+  --font-head: "Archivo Black", sans-serif;
+}
+
+:root {
+  --head-fontFamily: "Archivo Black", sans-serif;
+  --body-fontFamily: "Mulish", sans-serif;
+  --head-fontWeight: 400;
+  --body-fontWeight: 400;
+  --head-fontSize: 1;
+  --body-fontSize: 1;
+  --head-fontHeight: 1;
+  --body-fontHeight: 1;
+}
+
+/* Custom Gblock Utilities */
+.heading-xlarge {
+  font-family: var(--head-fontFamily);
+  font-size: calc(36px * var(--head-fontSize));
+  line-height: calc(42px * var(--head-fontHeight));
+  font-weight: 800;
+}
+
+.heading-large {
+  font-family: var(--head-fontFamily);
+  font-size: calc(30px * var(--head-fontSize));
+  line-height: calc(36px * var(--head-fontHeight));
+  font-weight: 700;
+}
+
+.heading-medium {
+  font-family: var(--head-fontFamily);
+  font-size: calc(24px * var(--head-fontSize));
+  line-height: calc(32px * var(--head-fontHeight));
+  font-weight: 600;
+}
+
+.heading-small {
+  font-family: var(--head-fontFamily);
+  font-size: calc(20px * var(--head-fontSize));
+  line-height: calc(28px * var(--head-fontHeight));
+  font-weight: 600;
+}
+
+.body-large {
+  font-family: var(--body-fontFamily);
+  font-size: calc(18px * var(--body-fontSize));
+  line-height: calc(26px * var(--body-fontHeight));
+}
+
+.body-normal {
+  font-family: var(--body-fontFamily);
+  font-size: calc(16px * var(--body-fontSize));
+  line-height: calc(24px * var(--body-fontHeight));
+}
+
+.body-small {
+  font-family: var(--body-fontFamily);
+  font-size: calc(14px * var(--body-fontSize));
+  line-height: calc(21px * var(--body-fontHeight));
+}
+
+@media (min-width: 768px) {
+  .heading-xlarge { font-size: calc(46px * var(--head-fontSize)); line-height: calc(54px * var(--head-fontHeight)); }
+  .heading-large { font-size: calc(35px * var(--head-fontSize)); line-height: calc(42px * var(--head-fontHeight)); }
+  .heading-medium { font-size: calc(28px * var(--head-fontSize)); line-height: calc(36px * var(--head-fontHeight)); }
+  .heading-small { font-size: calc(21px * var(--head-fontSize)); line-height: calc(28px * var(--head-fontHeight)); }
+}
+
+@media (min-width: 1280px) {
+  .heading-xlarge { font-size: calc(72px * var(--head-fontSize)); line-height: calc(80px * var(--head-fontHeight)); }
+  .heading-large { font-size: calc(48px * var(--head-fontSize)); line-height: calc(56px * var(--head-fontHeight)); }
+  .heading-medium { font-size: calc(32px * var(--head-fontSize)); line-height: calc(40px * var(--head-fontHeight)); }
+  .heading-small { font-size: calc(24px * var(--head-fontSize)); line-height: calc(32px * var(--head-fontHeight)); }
+  .body-large { font-size: calc(24px * var(--body-fontSize)); line-height: calc(36px * var(--body-fontHeight)); }
+  .body-normal { font-size: calc(18px * var(--body-fontSize)); line-height: calc(28px * var(--body-fontHeight)); }
+  .body-small { font-size: calc(16px * var(--body-fontSize)); line-height: calc(21px * var(--body-fontHeight)); }
+}
+
+.rich-text-block h1, .rich-text-block h2, .rich-text-block h3, .rich-text-block h4 {
+  margin-bottom: 1.25rem;
+  padding-top: 1.25rem;
+}
+
+.button {
+  @apply inline-flex items-center justify-center rounded-md font-medium transition-all duration-300 px-6 py-3 cursor-pointer;
+  background-color: #000;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.testimonials-flex-basis {
+  flex: 1 1 0%;
+  flex-basis: 100%;
+}
+@media(min-width: 1024px) {
+  .testimonials-flex-basis { flex-basis: calc(50% - 16px); }
+}
+@media(min-width: 1280px) {
+  .testimonials-flex-basis { flex-basis: calc(33% - 16px); }
+}
+
+.break-word { word-break: break-word; }
