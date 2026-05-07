@@ -21,48 +21,48 @@
 /* Custom Gblock Utilities */
 .heading-xlarge {
   font-family: var(--head-fontFamily);
-  font-size: calc(36px * var(--head-fontSize));
-  line-height: calc(42px * var(--head-fontHeight));
+  font-size: calc(32px * var(--head-fontSize));
+  line-height: calc(38px * var(--head-fontHeight));
   font-weight: 800;
 }
 
 .heading-large {
   font-family: var(--head-fontFamily);
-  font-size: calc(30px * var(--head-fontSize));
-  line-height: calc(36px * var(--head-fontHeight));
+  font-size: calc(26px * var(--head-fontSize));
+  line-height: calc(32px * var(--head-fontHeight));
   font-weight: 700;
 }
 
 .heading-medium {
-  font-family: var(--head-fontFamily);
-  font-size: calc(24px * var(--head-fontSize));
-  line-height: calc(32px * var(--head-fontHeight));
-  font-weight: 600;
-}
-
-.heading-small {
   font-family: var(--head-fontFamily);
   font-size: calc(20px * var(--head-fontSize));
   line-height: calc(28px * var(--head-fontHeight));
   font-weight: 600;
 }
 
-.body-large {
-  font-family: var(--body-fontFamily);
-  font-size: calc(18px * var(--body-fontSize));
-  line-height: calc(26px * var(--body-fontHeight));
+.heading-small {
+  font-family: var(--head-fontFamily);
+  font-size: calc(18px * var(--head-fontSize));
+  line-height: calc(24px * var(--head-fontHeight));
+  font-weight: 600;
 }
 
-.body-normal {
+.body-large {
   font-family: var(--body-fontFamily);
   font-size: calc(16px * var(--body-fontSize));
   line-height: calc(24px * var(--body-fontHeight));
 }
 
-.body-small {
+.body-normal {
   font-family: var(--body-fontFamily);
   font-size: calc(14px * var(--body-fontSize));
   line-height: calc(21px * var(--body-fontHeight));
+}
+
+.body-small {
+  font-family: var(--body-fontFamily);
+  font-size: calc(12px * var(--body-fontSize));
+  line-height: calc(18px * var(--body-fontHeight));
 }
 
 @media (min-width: 768px) {
